@@ -70,20 +70,24 @@ button{
 .featured-products{
     text-align:center;
 }
-.casual-wear{
+.card-container{
     display:flex;
     justify-content: space-between;
-    gap:20px;
+}
+.card{
+    width:200px;
+    margin:10px;
+    border: none;
 
 }
-.casual-wear.card{
-    border:2px solid black;
-    flex:1;
-    width:20px;
-    height:20px;
+/*.casual-wear{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
 }
-.card img{
-    max-width:100%;
-    height:auto;
-    border-radius:5px;
+.star-svg{
+    display:flex;
+    align-items:center;
+    flex-direction: row;
 }
+*/
